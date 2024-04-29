@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:blueviolet;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.searchbox{
+    width: 800px;
+    height: 80px;
+    border: 5px solid yellow;
+   border-radius: 90px;
+   font-size: 30px;
+}
+input[type="text"]::placeholder{
+text-align:center;
+    width: 300px;
+    font-size: 40px;
+     
+
+ }
+
+ .icon{
+  display:flex;
+   position: absolute;  
+    width: 30px;
+    height: 30px;
+    left: 400px;
+
+ 
+ }
+ .mic{
+   display: flex; 
+    position:fixed;
+    width:30px ;
+    height: 50px;
+    top: 423px;
+    right:450px;
+   }
+   .lens{
+    display:flex;
+position: relative;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    top: -60px;
+text-align:center ;
+    font-size: 150px;
+}
+.navbar{
+    display: flex;
+    position:fixed;
+    margin:20px;
+}
+.about{
+    padding: 10px;;
+    text-decoration: none;
+}
+.abou:hover{
+    color:rgb(39, 39, 40) ;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.about,.store:active{
+    color: aquamarine;
+
+}
+.about,.store:visited{
+    color:rgb(14, 16, 15) ;
+}
+ .store{
+    padding: 10px;
+    right: 10px;
+color:black;
+    text-decoration: none;
+}
+ .store:hover{
+    color:rgb(30, 30, 182) ;
+    cursor: pointer;
+    text-decoration:underline;
+
+ }
+  .bar{
+    display: flex;
+   position:relative;
+   text-align: center; 
+   justify-content: end;
+   margin: 20px;
+   right: 110px;
+}
+.image{
+    padding:10px;
+    text-decoration: none;
+    color: black
+    ;
+    }
+    .gmail{
+        padding: 10px;
+    }
+    .image ,.gmail:hover{
+        color: aquamarine;
+        text-decoration: underline;
+    cursor: pointer;
+    }
+.image ,.gmail:active{
+        color: rgb(66, 133, 111);
+    
+    }
+    .image ,.gmail:visited{
+        color: aquamarine;
+        /* text-decoration: none; */
+    
+    }
+    
+.search{ 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+ } 
+.text{
+    border: 1px solid green;
+    border-radius: 50px;
+    height: 50px;
+     width: 300px; 
+     background-color: aliceblue; 
+ } 
